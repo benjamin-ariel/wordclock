@@ -12,8 +12,6 @@ print(minutes)
 
 while True:
 
-  i2c = board.I2C()
-  matrix = Matrix8x8(i2c)
   hour = localtime().tm_hour
   minutes = localtime().tm_min
   
