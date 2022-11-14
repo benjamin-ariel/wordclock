@@ -1,7 +1,8 @@
 import board
 from time import localtime
 from adafruit_ht16k33.matrix import Matrix8x8
- 
+from time import sleep
+
 i2c = board.I2C()
 matrix = Matrix8x8(i2c)
 hour = localtime().tm_hour
@@ -10,8 +11,16 @@ minutes = localtime().tm_min
 print(hour)
 print(minutes)
 
-while True:
+def clear():
+ for i in range(8):
+  for j in range(8):
+   matrix[i,j] = 0
+   
 
+while True:
+  clear()
+  sleep(30)
+  
   hour = localtime().tm_hour
   minutes = localtime().tm_min
   
