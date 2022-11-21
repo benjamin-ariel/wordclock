@@ -114,7 +114,7 @@ while True:
 
   if minutes >=23 and minutes <=27:
   #twenty five past
-      clear()
+      
       matrix[7, 2] = 1
       matrix[7, 1] = 1
       matrix[7, 3] = 1
@@ -131,7 +131,7 @@ while True:
       matrix[5,0] = 1
 
   if minutes >= 18 and minutes <=22:
-      clear()
+      
       matrix[7,2] = 1
       matrix[7, 3] = 1
       matrix[7,4] = 1
@@ -144,7 +144,7 @@ while True:
       matrix[4,1] = 1
 
   if minutes >= 13 and minutes <=17:
-      clear()
+      
       matrix[4,1] = 1
       matrix[4, 2] = 1
       matrix[4,3] = 1
@@ -158,7 +158,7 @@ while True:
       matrix[6,6] = 1
 
   if minutes >= 8 and minutes <=12:
-      clear()
+      
       matrix[7,1] = 1
       matrix[7, 3] = 1
       matrix[7,4] = 1
@@ -169,7 +169,7 @@ while True:
       matrix[4,4] = 1
 
   if minutes >= 2 and minutes <= 7:
-      clear()
+      
       matrix[5,2] = 1
       matrix[5, 3] = 1
       matrix[5,0] = 1
@@ -180,7 +180,7 @@ while True:
       matrix[4,4] = 1
 
   if minutes >= 33 and minutes <=37:
-      clear()
+      
       matrix[7,2] = 1
       matrix[7, 3] = 1
       matrix[7,4] = 1
@@ -195,7 +195,6 @@ while True:
       matrix[4,4] = 1
 
   if minutes >= 28 and minutes <=32:
-      clear()
       matrix[5,4] = 1
       matrix[5, 5] = 1
       matrix[5,6] = 1
@@ -206,7 +205,7 @@ while True:
       matrix[4,4] = 1
 
   if minutes >= 38 and minutes <=42:
-      clear()
+      
       matrix[7,2] = 1
       matrix[7, 3] = 1
       matrix[7,4] = 1
@@ -217,7 +216,7 @@ while True:
       matrix[4,4] = 1
 
   if minutes >= 43 and minutes <=47:
-      clear()
+      
       matrix[6,0] = 1
       matrix[6, 1] = 1
       matrix[6,2] = 1
@@ -229,7 +228,7 @@ while True:
       matrix[4,4] = 1
 
   if minutes >= 48 and minutes <=52:
-      clear()
+      
       matrix[7,1] = 1
       matrix[7, 3] = 1
       matrix[7,4] = 1
@@ -237,7 +236,7 @@ while True:
       matrix[4,4] = 1
 
   if minutes >= 53 and minutes <=59:
-      clear()
+      
       matrix[5,2] = 1
       matrix[5, 3] = 1
       matrix[5,0] = 1
