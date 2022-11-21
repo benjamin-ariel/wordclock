@@ -15,13 +15,14 @@ def clear():
  for i in range(8):
   for j in range(8):
    matrix[i,j] = 0
-   
 
 while True:
   sleep(30)
   
   hour = localtime().tm_hour
   minutes = localtime().tm_min
+  if minutes >= 33 and minutes <=59
+    hour = hour  + 1
   
   if hour == 1 or hour == 13:
       clear()
