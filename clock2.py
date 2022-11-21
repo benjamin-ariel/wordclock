@@ -18,7 +18,6 @@ def clear():
    
 
 while True:
-  clear()
   sleep(30)
   
   hour = localtime().tm_hour
